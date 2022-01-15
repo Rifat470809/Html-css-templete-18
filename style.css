@@ -1,0 +1,473 @@
+ *{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.box-header{
+	max-width: 1140px;
+	margin: auto;
+}
+
+.header-section{
+	width: 1140px;
+	height: 500px;
+	background: url(img/Rifat.jpg);
+	margin: auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.header-section-1{
+	width: 1140px;
+	height: 136px;
+	background: #27292f;
+	overflow: hidden;
+}
+
+.logo-menu{
+	width: 1050px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+
+.logo{
+	margin-top: 10px;
+}
+
+.search{
+	width: 200px;
+	float: right;
+}
+
+.search input{
+	padding: 5px 15px;
+	border-radius: 50px;
+	width: 200px;
+	border: 0;
+}
+
+.menu ul{
+	list-style-type: none;
+	display: inline-block;
+}
+
+.menu ul li{
+	float: left;
+
+	margin-left: 10px;
+	margin-top: 25px;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+}
+
+/*-------------------------*/
+
+
+.text{
+	width: 800px;
+	margin: auto;
+	color: #fff;
+}
+
+.text p{
+	font-size: 22px;
+	text-align: center;
+	margin-top: 115px;
+}
+
+/*------------------------------------*/
+
+.curabitur-contact{
+	max-width: 1140px;
+	height: 150px;
+	background: #e7e7e7;
+	overflow: hidden;
+	border-bottom: 9px solid #dadada;
+}
+
+.text-contect{
+	width: 1050px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 25px;
+}
+
+.text-1{
+	width: 700px;
+}
+
+.text-1 h2{
+	font-size: 35px;
+	color: #1f222c;
+	font-weight: 300;
+}
+
+.contect{
+	margin-top: 15px;
+}
+
+.contect h2{
+	font-size: 27px;
+	background: #1f232c;
+	padding: 15px 30px;
+	color: #e1dada;
+	border-radius: 10px;
+	font-weight: 300;
+}
+
+/*----------------------------*/
+
+.service-item{
+	width: 1050px;
+	margin: auto;
+	display: flex;
+	margin-top: 75px;
+}
+
+.item{
+	width: 350px;
+	display: flex;
+}
+
+.img img{
+	width: 100px;
+	height: 100px;
+}
+
+/*-----------------------*/
+
+.item-1{
+	width: 350px;
+	display: flex;
+	margin-left: 20px;
+}
+
+.text-2{
+	margin-left: 20px;
+}
+
+.text-2 h2{
+	font-size: 25px;
+	font-weight: 300;
+}
+
+.text-2 p{
+	font-size: 18px;
+	margin-top: 10px;
+	color: #979797;
+}
+
+.item-2{
+	width: 350px;
+	display: flex;
+	margin-left: 20px;
+}
+
+/*-----------------------------*/
+
+.text-3{
+	max-width: 1050px;
+	text-align: center;
+	position: relative;
+	margin: auto;
+	margin-top: 59px;
+}
+
+.text-3 h2{
+	font-size: 32px;
+	display: inline-block;
+	padding: 0px 10px;
+	color: #1f212c;
+	font-weight: 300;
+}
+
+.text-3:after{
+	content: '';
+	position: absolute;
+	width: 395px;
+	height: 2px;
+	left: 0;
+	top: 20px;
+	background: #1f212c;
+}
+
+.text-3:before{
+	content: '';
+	position: absolute;
+	width: 395px;
+	height: 2px;
+	right: 0;
+	top: 19px;
+	background: #1f212c;
+}
+
+/*------------------------------*/
+
+.image-section{
+	width: 1050px;
+	margin: auto;
+}
+
+.img-item img{
+	width: 325px;
+	height: 190px;
+}
+
+.image-section{
+	display: flex;
+	justify-content: space-between;
+	height: 254px;
+	margin-top: 40px;
+}
+
+.img-item{
+	width: 325px;
+	background: #eeeeee;
+}
+
+.img-item h2{
+	font-size: 18px;
+	text-align: center;
+	margin-top: 6px;
+	font-weight: 300;
+	color: #1f212c;
+}
+
+.img-item p{
+	font-size: 17px;
+	text-align: center;
+	color: #979797;
+}
+
+.image-section-1{
+	width: 1050px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	height: 254px;
+	margin-top: 30px;
+}
+
+/*----------------------------------*/
+
+.fooder-section{
+	max-width: 1140px;
+	height: 330px;
+	background: #eeeeee;	
+	margin-top: 65px;
+	overflow: hidden;
+}
+
+.fooder-section-1{
+	width: 1050px;
+	margin: auto;
+	display: flex;
+	margin-top: 60px;
+}
+
+.fooder-item{
+	width: 260px;
+}
+
+.fooder-item h2{
+	font-size: 25px;
+	font-weight: 300;
+	color: #2c2c2c;
+}
+
+.company{
+	margin-top: 30px;
+}
+
+.company p{
+	font-size: 17px;
+	color: #7c7c7c;
+}
+
+.tel-gmail{
+	margin-top: 10px;
+}
+
+.tel-gmail p{
+	font-size: 17px;
+	color: #7c7c7c;
+}
+
+/*-------------------------------*/
+
+.fooder-item-1{
+	width: 200px;
+	margin-left: 10px;
+}
+
+.fooder-item-1 h2{
+	font-size: 25px;
+	color: #2c2c2c;
+	font-weight: 300;
+}
+
+.Links{
+	margin-top: 30px;
+}
+
+.Links ul{
+	list-style-type: none;
+}
+
+.Links ul li{
+	margin-top: 18px;
+	border-bottom: 1px solid #c4c4c4;
+}
+
+.Links ul li a{
+	text-decoration: none;
+	font-size: 18px;
+	color: #1f232c;
+}
+
+/*-------------------------------*/
+
+.fooder-item-2{
+	width: 300px;
+	margin-left: 15px;
+}
+
+.fooder-item-2 h2{
+	font-size: 25px;
+	color: #2c2c2c;
+	font-weight: 300;
+}
+
+.Post{
+	margin-top: 30px;
+}
+
+.Post h2{
+	font-size: 22px;
+	color: #7c7c7c;
+	font-weight: bold;
+}
+
+.Post h3{
+	font-size: 18px;
+	color: #7c7c7c;
+	font-weight: 300;
+	margin-top: 5px;
+}
+
+.Post p{
+	font-size: 19px;
+	color: #7c7c7c;
+	margin-top: 10px;
+}
+
+.more{
+	margin-top: 10px;
+	float: right;
+}
+
+.more a{
+	font-size: 17px;
+	text-decoration: none;
+	color: #1f232c;
+}
+
+/*-------------------------------*/
+
+.fooder-item-3{
+	width: 245px;
+	margin-left: 20px;
+}
+
+.fooder-item-3 h2{
+	font-size: 20px;
+	color: #2c2c2c;
+	font-weight: 300;
+}
+
+.name{
+	margin-top: 40px;
+}
+
+.name input{
+	font-size: 15px;
+	width: 100%;
+	height: 35px;
+	border-radius: 5px;
+	border: 0;
+	background: #fff;
+	padding: 10px;
+}
+
+.email{
+	margin-top: 15px;
+}
+
+.email input{
+	font-size: 15px;
+	width: 100%;
+	height: 35px;
+	border-radius: 5px;
+	background: #fff;
+	border: 0;
+	padding: 10px;
+}
+
+.btn{
+	margin-top: 20px;
+}
+
+.btn button{
+
+	padding: 7px 15px;
+	background: #1f232c;
+	color: #fff;
+	font-size: 18px;
+	border: 0;
+	border-radius: 5px;
+}
+
+/*---------------------------*/
+
+.box-7{
+	width: 1140px;
+	height: 70px;
+	background: #1f232c;
+}
+
+.box-7-1{
+	width: 1050px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.copyright-template{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 25px;
+}
+
+.copyright h2{
+	font-size: 18px;
+	color: #737373;
+	font-weight: 300;
+}
+
+.template h2{
+	font-size: 18px;
+	color: #737373;
+	font-weight: 300;
+}
+
+
+
+
+
